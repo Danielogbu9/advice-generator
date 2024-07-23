@@ -1,0 +1,65 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    top: 1;
+}
+
+.attribution a {
+    color: hsl(229, 43%, 85%);
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 300px;
+    position: relative;
+    background-color: hsl(217, 19%, 24%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#ad-id {
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+#pattern {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#dice {
+    position: absolute;
+    bottom: -20px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+    border-radius: 50%;
+    left: 167px;
+}
+
+#ad-body {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+@media (max-width: 330px) {
+    #dice {
+        left: 150px;
+    }
+}
